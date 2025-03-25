@@ -80,6 +80,7 @@ header nav a:any-link {
   text-transform: uppercase;
   font-size: var(--body-font-size-xxs);
   letter-spacing: 0.16em;
+  padding: 1.5rem 0;
 }
 
 @media (width <=900px) {
@@ -286,6 +287,7 @@ header nav .nav-sections ul>li>a:hover {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    width: 15%;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul {
