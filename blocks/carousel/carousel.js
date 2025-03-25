@@ -78,7 +78,8 @@ function createSlide(row, slideIndex, carouselId) {
 
   row.querySelectorAll(':scope > div').forEach((column) => {
     const isImage = column.querySelector('picture');
-    column.classList.add(`carousel-slide-${isImage ? 'image' : 'content'}`);
+    column.classList.add('carousel-slide-image');
+    //column.classList.add(`carousel-slide-${isImage ? 'image' : 'content'}`);
     slide.append(column);
     /*
     if (!isImage) {
