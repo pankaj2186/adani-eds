@@ -198,7 +198,7 @@
     --slide-content-width: auto;
   }
 }
-li .button-container, li .button {
+div.button-container.carousel-slide-image {
      display: inline;
      background: none;
 }
