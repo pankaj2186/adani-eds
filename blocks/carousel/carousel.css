@@ -43,7 +43,7 @@
 }
 
 .carousel .carousel-slide-image {
-  width: 65%;
+  width: 100%;
 }
 
 @media (width <= 768px) {
