@@ -80,7 +80,7 @@ function createSlide(row, slideIndex, carouselId) {
     const isImage = column.querySelector('picture');
     column.classList.add(`carousel-slide-${isImage ? 'image' : 'content'}`);
     slide.append(column);
-
+    /*
     if (!isImage) {
       const link = column.querySelector('.button-container > a');
       if (link) {
@@ -88,6 +88,7 @@ function createSlide(row, slideIndex, carouselId) {
         link.classList.add('button-primary');
       }
     }
+    */
   });
 
   const labeledBy = slide.querySelector('h1, h2, h3, h4, h5, h6');
