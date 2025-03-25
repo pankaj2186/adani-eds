@@ -198,3 +198,7 @@
     --slide-content-width: auto;
   }
 }
+li .button-container, li .button {
+     display: inline;
+     background: none;
+}
