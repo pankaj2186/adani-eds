@@ -199,6 +199,5 @@
   }
 }
 div.button-container.carousel-slide-image {
-     display: inline;
-     background: none;
+     display: none;
 }
